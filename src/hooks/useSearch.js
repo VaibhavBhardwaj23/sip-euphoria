@@ -9,7 +9,7 @@ export const useSearch = (slug) => {
   const options = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "4404fa7a69mshd238c5848ad2854p1ae416jsn9c5311831c4e",
+      "X-RapidAPI-Key": "94d16b6350msh1e6cf70124d4552p13aa5ajsn7d7d07d8f7f9",
       "X-RapidAPI-Host": "the-cocktail-db3.p.rapidapi.com",
     },
   };
