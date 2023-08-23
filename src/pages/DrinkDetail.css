@@ -1,0 +1,65 @@
+.drink_detail {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 3em auto;
+  flex-direction: column;
+}
+.detail_image {
+  height: max-content;
+  width: 90%;
+  margin: 0 auto;
+  visibility: hidden;
+  transform: translateX(-10%);
+}
+.detail_image img {
+  border-top-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  border: 5px solid #ff6d16;
+  width: 100%;
+}
+.detail {
+  padding: 1em;
+  margin: 0 1em;
+  font-family: "Montserrat";
+  line-height: 1.9em;
+  visibility: hidden;
+  transform: translateX(10%);
+}
+.detail h3 {
+  font-weight: 500;
+  font-size: 1.2em;
+  font-style: italic;
+}
+.difficulty {
+  display: inline;
+  padding: 0 0.5em;
+  border: 1px solid white;
+  border-radius: 30px;
+  font-size: 0.9em;
+}
+.detail p {
+  font-size: 0.8em;
+}
+.detail_title {
+  font-family: "Lovelace";
+  font-weight: 500;
+}
+.box {
+  margin: 1em auto;
+}
+.number {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 1040px) {
+  .detail_image {
+    width: 100%;
+  }
+  .drink_detail {
+    max-width: 90%;
+    flex-direction: row;
+  }
+}

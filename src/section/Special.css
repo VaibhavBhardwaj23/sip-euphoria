@@ -1,0 +1,21 @@
+.specials h1 {
+  font-family: "Lovelace";
+  font-weight: 300;
+  font-size: 16vw;
+  text-align: center;
+  visibility: hidden;
+  transform: translateX(-20%);
+}
+.special_cards {
+  visibility: hidden;
+  transform: translateY(20%);
+}
+.forward {
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat";
+  font-size: 0.8em;
+  width: max-content;
+  margin: 0 auto;
+  cursor: pointer;
+}

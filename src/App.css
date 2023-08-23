@@ -1,0 +1,95 @@
+.navBar {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.logo {
+  font-family: "Cinzel Decorative", cursive;
+  color: white;
+  font-weight: 100;
+  font-size: 6vw;
+  flex: 1;
+  visibility: hidden;
+}
+.navBar p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.3vw;
+  padding: 1em;
+  transform: translateY(-30%);
+  visibility: hidden;
+}
+.text {
+  width: 80%;
+  position: relative;
+  top: 8vw;
+  left: 10vw;
+}
+.text h1 {
+  font-family: "Lovelace";
+  font-weight: 300;
+  font-size: 12vw;
+  visibility: hidden;
+}
+.text span {
+  font-family: "Lovelace";
+  font-weight: 100;
+  font-style: italic;
+}
+.hero {
+  position: relative;
+  height: max-content;
+}
+.text2 {
+  z-index: -1;
+  position: relative;
+  top: 6vw;
+  left: 20%;
+  width: 60%;
+  border-radius: 10%;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  visibility: hidden;
+  transform: translateX(-100%);
+}
+.text2 img {
+  width: 100%;
+  object-fit: contain;
+  border: 1px solid #ff6d16;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+}
+@media screen and (min-width: 1040px) {
+  .hero {
+    height: 100vh;
+  }
+  .text h1 {
+    font-size: 12vw;
+  }
+  .text2 {
+    z-index: -1;
+    position: relative;
+    top: -28vw;
+    left: 60%;
+    width: 35%;
+    border-radius: 10%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    visibility: hidden;
+    transform: translateX(-100%);
+  }
+  .text2 img {
+    width: 100%;
+    object-fit: contain;
+    border: 1px solid #ff6d16;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+  }
+  .logo {
+    font-size: 3vw;
+  }
+  .navBar p {
+    font-size: 1vw;
+  }
+}

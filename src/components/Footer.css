@@ -1,0 +1,15 @@
+.footer {
+  font-family: "Lovelace";
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 3em auto;
+}
+.footer p {
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+
+.footer p:hover {
+  text-decoration: underline;
+}

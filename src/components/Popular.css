@@ -1,0 +1,53 @@
+.popular {
+  width: 90%;
+  margin: 1em auto;
+  padding: 1em;
+  transform: translateX(-10%);
+  visibility: hidden;
+}
+.popular h2 {
+  font-family: "Lovelace";
+  font-weight: 300;
+  font-style: normal;
+  margin: 0.3em auto;
+}
+.popular_drinks {
+  overflow-x: auto;
+
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.drinks {
+  margin: 1em;
+}
+.popular_image {
+  width: 286px;
+}
+.popular_image img {
+  border-top-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  border: 5px solid #ff6d16;
+  width: 100%;
+}
+.text_popular {
+  padding: 0.3em;
+}
+.text_popular h2 {
+  font-family: "Montserrat";
+  font-size: 1em;
+  line-height: 2em;
+}
+.text_popular p {
+  font-family: "Montserrat";
+  font-size: 1em;
+}
+@media screen and (min-width: 1040px) {
+  .popular_image {
+    width: 386px;
+  }
+  .text_popular h2 {
+    font-family: "Montserrat";
+    font-size: 1em;
+  }
+}
